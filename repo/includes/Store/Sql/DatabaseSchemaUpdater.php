@@ -346,7 +346,7 @@ class DatabaseSchemaUpdater {
 			2
 		);
 
-		$rebuilder->rebuild();
+		//$rebuilder->rebuild();
 		$updater->insertUpdateRow( __CLASS__ . '::rebuildItemTerms' );
 	}
 
